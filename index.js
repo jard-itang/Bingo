@@ -23,8 +23,8 @@ function newNumber(maxNumber) {
         console.log(`New number ${x} belongs to G`);
         G = true;
     } else if (x >= 61 && x <= 75) {
-        console.log(`New number ${x} belongs to 0`);
-        G = true;
+        console.log(`New number ${x} belongs to O`);
+        O = true;
     } else {
         console.log(`New number ${x} is invalid`);
     }
